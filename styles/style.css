@@ -21,7 +21,8 @@
   grid-template-rows: 1fr min-content 1fr;
   position: relative;
 
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 668px;
   padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   @media (width >=768px) {
     grid-template-columns: 1fr 1fr;
@@ -126,7 +127,7 @@
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  text-decoration: underline;
+  border-bottom: 1px solid var(--decoration-color);
 }
 
 .header__theme-menu-button:active {
@@ -365,7 +366,8 @@
   position: relative;
   display: grid;
 
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 668px;
   padding: 10px 10px;
 }
 
